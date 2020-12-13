@@ -1,0 +1,144 @@
+/*xử lý menu*/
+
+.main-header{
+  font-family: f1;
+}
+.dropdown {
+  position: relative;
+
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none; /*ẩn danh sách đổ xuống*/
+
+  position: absolute;
+
+  z-index: 1;
+
+  background-color: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /*hiện danh sách đổ xuống khi hover vào*/
+}
+.navbar-custom {
+  background-color: red;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255, 255, 255);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link   {
+    color: rgba(255, 255, 255);
+    font-family:F1 ;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    background-color: black;
+    color: white;
+}
+@font-face {
+    font-family: F1;
+    src: url("Fonts/Formula1-Regular.ttf");
+  }
+.navbar-custom .navbar-brand{
+    width: 50px ;
+    height: 50px;
+}
+.card{
+  height: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 800px;
+  background-color: rgba(0,0,0,0.5) !important;
+  }
+  
+  .social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: red;
+  }
+  
+  .social_icon span:hover{
+  color: white;
+  cursor: pointer;
+  }
+  
+  .card-header h3{
+  font-family: f1;
+  color: white;
+  }
+  
+  .social_icon{
+  
+  right: 20px;
+  top: -25px;
+  }
+  
+  .input-group-prepend span{
+  width: 50px;
+  background-color: red;
+  color: black;
+  border:0 !important;
+  }
+  
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  
+  }
+  
+  .remember{
+  color: white;
+  font-family: f1;
+  font-size: 15px;
+  }
+  
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  
+  .login_btn{
+  color: black;
+  background-color: red;
+  color: white;
+  font-family: f1;
+  font-size: 20px;
+  width: 100px;
+  }
+  
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+  
+  .links{
+  color: white;
+  }
+  
+  .resultsarchive-filter-item-link{
+    color: black;
+  }
+   .resultsarchive-filter-item-link:hover{
+    text-decoration: none;
+  }
+
+  .resultsarchive-filter .selected .clip {
+    color: #15151e;
+    font-weight: bold;
+
+    border-bottom: 2px solid #e00;
+}
+  
+  
+  
+  
